@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.all{
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 30px 42px;
+}
+.header {
+    display: flex;
+    justify-content:space-between; /* Centers horizontally */
+    align-items:center; /* Centers vertically if the container has a set height */
+    height: 100px; /* Example height */
+    margin-top: 20px;
+}
+
+.logo_img{
+    left: 90px;
+    width: 171px;
+    height: 27px;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+}
+
+
+.header a{
+    all: unset;
+    padding-left: 30px;
+    text-align: center;
+    color: #3F5D45;
+    font-family: PingFang TC, Semibold;
+    size: 16px;
+    font-style: bold;
+    cursor: pointer;
+    &:hover{
+        color: #e7eeea;
+    }
+   
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog{
+    width: 250px;
+    font-family: PingFang TC, Semibold;
+    font-size: 24px;
+   
+}
+
+.catalog h5{
+ background-color: #3F5D45;
+ color: #EAF0ED;
+ text-align: center;
+ padding-top: 16px;
+ padding-bottom: 16px;
+
+ 
+}
+.catalog li{
+    border: 1px solid #e7eeea;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    &:hover{
+        background-color: #e7eeeae7;
+    }
+}
+
+.special{
+    background-color: #e7eeea;
+}
+
+.catalog a{
+    all: unset;
+    color: #3F5D45;
+    
+}
+
+.main_right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 640px;
+    position: relative;
+}
+
+.item_pic{
+    position: relative;
+}
+
+.item{
+    border: #e7eeea solid;
+    margin-bottom: 10px;
+}
+
+.item-tag{
+    position:absolute;
+    writing-mode: vertical-lr;
+    left:25px;
+    top:0;
+    background-color: #3F5D45;
+    color:white;
+    padding: 9px ;
+    font-style: light;
+}
+
+.item-heart{
+    position:absolute;
+    left:260px;
+    top:18px;
+}
+
+.products ul{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.products li{
+    margin:10px;
+    
+}
+
+
+.products a{
+all: unset;
+display: flex;
+justify-content: center;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: #e7eeea;
+color: #3F5D45;
+font-family: PingFang TC, Semibold;
+font-size: 24px;
+border-right: #e7eeea solid;
+
+}
+
+.pages ul{
+    all: unset;
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+
+.pages li{
+    all: unset;
+    width: 40px;
+    border: #e7eeea solid;
+    text-align: center;
+    color:#3F5D45 ;
+    padding: 10px;
+    
+
+}
